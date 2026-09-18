@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { MessageSquare, Send, User, AlertTriangle, Clock, ShieldAlert } from 'lucide-react';
 import { StudentComment } from '@/lib/comments';
+import XSSContent from '@/components/XSSContent';
 
 interface CommentSectionProps {
   studentId: number;
@@ -177,7 +178,6 @@ export default function CommentSection({ studentId }: CommentSectionProps) {
                   </div>
                 </div>
 
-import XSSContent from '@/components/XSSContent';
 
                 {/* 
                   SECURITY PRACTICUM VULNERABILITY: Stored XSS (Cross-Site Scripting)
