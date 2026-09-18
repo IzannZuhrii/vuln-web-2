@@ -1,0 +1,5 @@
+=== XI TKJ 3 CLASS CONFIDENTIAL NOTES ===
+This file is strictly for security testing within the project scope.
+Path Traversal vulnerability successfully accessed this file!
+Class Advisor: Pak Ahmad S.T., M.Kom.
+Lab Room: Laboratorium TKJ 3 (Gedung B Lt. 2)
